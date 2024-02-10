@@ -131,3 +131,27 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+@media only screen and (max-width: 950px) {
+    .container {
+        margin: 50px; /* Adjust margin for larger screens */
+    }
+
+    #input {
+        width: 70vw;
+        font-size: medium;
+    }
+
+    .list {
+        width: 70vw;
+        font-size: medium;
+    }
+    .tasks{
+        font-size: medium;
+    }
+    .list-box {
+        height: 70vh; /* Adjust height for larger screens */
+    }
+    .del, .add{
+        font-size: medium;
+    }
+}
