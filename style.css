@@ -141,7 +141,7 @@ body {
         font-size: medium;
     }
 
-    .list {
+    .list{
         width: 70vw;
         font-size: medium;
     }
@@ -151,7 +151,12 @@ body {
     .list-box {
         height: 70vh; /* Adjust height for larger screens */
     }
-    .del, .add{
+    #del{
+        font-size: medium;
+        width: 70vw;
+    }
+    #add{
         font-size: medium;
     }
+    
 }
