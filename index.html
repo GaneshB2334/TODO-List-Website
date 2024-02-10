@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sortablejs@1.14.0/Sortable.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>TO-DO List</h2>
+        <div class="input-block">
+            <input type="text" id="input" placeholder="Enter Task">
+            <div class="add-button">
+                <button class="add" id="add">Add Task</button>
+            </div>
+        </div>
+        <div class="list-box">
+
+            <ul class="list" id="sortable-list">
+            </ul>
+            <button id="del">Delete All</button>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.14.0/Sortable.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
