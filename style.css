@@ -116,24 +116,21 @@ body {
     width: 10px;
 }
 
-/* Track */
 ::-webkit-scrollbar-track {
     background: transparent;
 }
 
-/* Handle */
 ::-webkit-scrollbar-thumb {
     background: #888;
     border-radius: 10px;
 }
 
-/* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
 @media only screen and (max-width: 950px) {
     .container {
-        margin: 50px; /* Adjust margin for larger screens */
+        margin: 50px;
     }
 
     #input {
@@ -143,13 +140,14 @@ body {
 
     .list{
         width: 70vw;
+        height: 40vh;
         font-size: medium;
     }
     .tasks{
         font-size: medium;
     }
     .list-box {
-        height: 70vh; /* Adjust height for larger screens */
+        height: 50vh; 
     }
     #del{
         font-size: medium;
