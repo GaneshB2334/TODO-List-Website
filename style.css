@@ -62,8 +62,17 @@ body {
 
 #add:hover {
     background-color: rgb(0, 147, 184);
+    animation: Scl 0.2s ease-out 1 both;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
 }
-
+@keyframes Scl {
+    from{
+        transform: scale(100%);
+    }
+    to{
+        transform: scale(105%);
+    }
+}
 #del {
     font-size: larger;
     padding: 10px;
